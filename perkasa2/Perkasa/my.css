@@ -1,0 +1,1412 @@
+body{
+background:url('img/bg_pattern.gif');
+background-attachment:fixed;
+}
+.warn .icon{
+width:9px;
+height:9px;
+margin-right:4px;
+margin-bottom:0px;
+margin-top:4px;
+}
+h4{
+font-family:verdana;
+font-size:12px;
+ color:#000;
+ text-decoration:underline;
+}
+.isi .tombol{
+background:#4EB1BA;
+border:0px;
+font-size:11px;
+font-family:arial;
+color:#fff;
+padding:3px 20px 3px;
+font-weight:bold;
+cursor:pointer;
+border-radius:5px;
+box-shadow:1px 1px 0px #999;
+}
+
+.isi .tombol:hover{
+background:#FFB900;
+color:#FFF;
+box-shadow:1px 1px 0px #aaa;
+ 
+}
+
+.utama{
+width:800px;
+margin:25px 0px 25px;
+margin:auto;
+background:url('img/bg_test.jpg');
+background-attachment: scroll;
+border-radius:15px;
+box-shadow:0px 0px 5px #000;
+padding:25px 20px 20px;
+}
+.header{
+width:100%;
+height:320px;
+background:url('img/logo.jpg');
+background-repeat:no-repeat;
+background-position:center;
+margin-bottom:40px;
+}
+
+.menu a{
+font-family: Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:bold;
+color:#B81D18;
+text-decoration:none;
+margin:1px 15px 1px;
+}
+.menu a:hover{
+color:#fff;
+background-color:#4EB1BA;
+border-radius:10px;
+}
+.menu .adacart{
+color:#B81D18;
+}
+.menu .adacart:hover{
+color:#fff;
+}
+
+/*CSS ISI BADAN */
+
+.isi{
+margin-top:20px;
+margin-right:20px;
+margin-bottom:10px;
+width:95%;
+padding:15px 20px 14px;
+background:#EFEFEF;
+border-radius:10px;
+box-shadow:0px 0px 3px #888;
+
+}
+.isi h3{
+color:#B81D18;
+text-transform:uppercase;
+font-size:17px;
+font-family:verdana;
+font-weight:bold;
+letter-spacing:1px;
+text-align:center;
+}
+ 
+.isi p{
+font-family:arial;
+color:#000;
+font-size:12px;
+line-height:19px;
+text-align:justify;
+}
+.isi img{
+border:10px solid white;
+margin:10px 20px 20px;
+box-shadow:0px 0px 3px #999;
+ 
+
+}
+.isi li{
+font-family:arial;
+color:#000;
+font-size:12px;
+line-height:19px;
+}
+
+
+
+/*CSS BAGIAN FOOTER */
+
+
+.footer{
+width:100%;
+height:20px;
+}
+.footer a{
+font-size:11px;
+margin-right:5px;
+margin-left:5px;
+color:#000;
+text-decoration:none;
+}
+.copyr{
+padding-top:25px;
+color:#000;
+width:100%;
+}
+.copyr span{
+font-size:11px;
+letter-spacing:1px;
+}
+
+/*CSS BAGIAN PRODUK KONSUMEN */
+
+.tdprod{
+background:#fff;
+color:#000;
+margin:3px 5px 3px;
+border-radius:10px;
+height:15px;
+padding-left:10px;
+padding-right:10px;
+padding-top:15px;
+padding-bottom:20px;
+box-shadow:1px 1px 2px #777;
+}
+.detprod {
+font-family:arial;
+font-size:11px;
+text-align:justify;
+color:#999;
+}
+.nmprod{
+ font-weight:bold;
+line-height:30px;
+font-family:verdana;
+font-size:11px;
+color:#888;
+text-decoration:underline;
+}
+.nmprod:hover{
+color:#B81D18;
+}
+.footerprod{
+color:green;
+font-family:verdana;
+font-size:11px;
+}
+.tmblcart{
+font-size:11px;
+color:#fff;
+background:#4EB1BA;
+font-weight:bold;
+border-radius:8px;
+}
+.hargaprod{
+font-family:verdana;
+color:red;
+font-size:11px;
+}
+.stokprod{
+font-family:verdana;
+color:#B81D18;
+font-size:11px;
+}
+.nmprodcari{
+background:yellow;
+ font-weight:bold;
+line-height:30px;
+font-family:verdana;
+font-size:11px;
+color:#888;
+text-decoration:underline;
+}
+.tdktemu{
+color:#777;
+font-family:arial;
+font-weight:bold;
+padding-bottom:30px;
+padding-top:30px;
+font-size:12px;
+}
+
+
+
+
+
+
+/*============== logreg.php ===============*/
+
+.login td{
+color:#555;
+font-family:arial;
+font-size:11px;
+}
+.login input{
+color:#555;
+font-family:arial;
+font-size:11px;
+padding-left:3px;
+letter-spacing:1px;
+}
+.reg{
+color:#000;
+font-family:arial;
+font-size:12px;
+}
+.register th{
+color:#000;
+font-size:14px;
+font-weight:bold;
+margin-bottom:15px;
+margin-top:15px;
+text-decoration:underline;
+font-family:verdana;
+text-align:left;
+height:30px;
+}
+.register td{
+width:220px;
+font-family:arial;
+font-size:11px;
+color:#444;
+height:30px;
+}
+.register select{
+font-family:arial;
+font-size:11px;
+color:#444;
+}
+.register input{
+font-family:arial;
+padding-left:3px;
+letter-spacing:1px;
+font-size:11px;
+color:#444;
+}
+.register table{
+margin-left:40px;
+}
+
+/*========== MENU CSS ADMIN ============ */
+.menuadmin td{
+border-radius:8px;
+padding:8px 20px 8px;
+font-family:arial;
+font-size:11px;
+box-shadow:1px 1px 1px #888;
+}
+.menuadmin td:hover{
+background:#4EB1BA;
+}
+.menuadmin a{
+text-decoration:none;
+font-family:verdana;
+color:red;
+}
+.menuadmin table{
+margin-top:20px;
+margin-bottom:20px;
+}
+.menuduaadm{
+margin:auto;
+text-align:center;
+
+height:25px;
+width:100%;
+margin-top:15px;
+ 
+}
+.menuduaadm a{
+text-decoration:none;
+color:#B81D18;
+ 
+padding-left:10px;
+padding-right:10px;
+font-size:11px;
+font-family:arial;
+font-weight:bold; 
+}
+.menuduaadm a:hover{
+color:#fff;
+
+ }
+
+/*========= ADMIN pesan.php =============*/
+
+.psnkpdadm{
+color:#000;
+font-size:11px;
+font-family:arial;
+margin-top:20px;
+}
+.psnkpdadmtd{
+background:#fff;
+border-radius:10px;
+padding:10px 15px 10px;
+box-shadow:1px 1px 2px #000;
+}
+
+
+/*============ manageuser.php ==================*/
+
+
+.tblmngusr table{
+margin-top:10px;
+margin-bottom:10px;
+
+}
+.tblmngusr td{
+box-shadow:1px 1px #aaa;
+border-radius:10px;
+background:#FFBC0B;
+}
+.tblmngusr th{
+border-radius:10px;
+background:#4EB1BA;
+font-family:arial;
+font-size:11px;
+padding:5px 0px 5px;
+color:#fff;
+box-shadow:1px 1px #aaa;
+}
+.tblmngusr a{
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+color:#000;
+}
+.tblmngusr a:hover{
+text-decoration:underline;
+}
+.tblmngusr span{
+color:#fff;
+font-family:verdana;
+font-size:11px;
+}
+/*============== tambahproduk.php ================= */
+.admtmbhprod table{
+border-radius:10px;
+margin-left:30px;
+border:1px solid #ddd;
+box-shadow:1px 1px 0px #999;
+background:#fff;
+padding-left:20px;
+padding-right:40px;
+}
+.tomboltmbhprod{
+margin-top:20px;
+font-size:11px;
+}
+/*========== LIHATPRODUK.php ================ */
+.lihatproduk table{
+border-radius:10px;
+border:1px solid #ddd;
+box-shadow:1px 1px 1px #555;
+background:#fff; 
+padding:30px 10px 30px;
+font-family:verdana;
+font-size:12px;
+}
+.lihatproduk td{
+border:1px solid #B81D18;
+text-align:center;
+color:#000
+}
+.lihatproduk th{
+color:#444;
+background:#B81D18;
+border:1px solid #B81D18;
+}
+.lihatproduk tr:hover{
+background:#CECECE;
+ color:#000;
+cursor:pointer;
+}
+
+.lihatproduk a{
+color:#B81D18;
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+font-weight:bold;
+}
+.lihatproduk a:hover{
+color:brown;
+}
+
+
+.frmpesan{
+background:#eee;
+padding:10px 20px 10px; 
+ margin-top:20px;
+ -moz-border-radius:10px;
+ border-radius:10px;
+ font-family:verdana;
+ font-weight:bold;
+ color:#B81D18;
+ font-size:11px;
+ -webkit-border-radius:10px;
+}
+.frmcari{
+border:1px solid #aaa;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+font-size:12px;
+font-family:arial;
+ padding-left:5px;
+color:#000;
+padding-top:2px;
+padding-bottom:2px;
+}
+
+.userprofil table{
+background:#fff;
+-moz-border-radius:5px;
+border-radius:5px;
+padding:3px;
+margin-bottom:40px;
+}
+.userprofil td{
+border:1px solid  #aaa;
+padding:5px;
+color:#555;
+font-family:verdana;
+font-size:11px;
+}
+.userprofil th{
+font-family:arial;
+font-size:12px;
+color:#555;
+}
+/* CSS FORM EDIT USER PROFIL */
+.formeditprofil td{
+color:#555;
+font-family:arial;
+font-size:11px;
+height:30px;
+}
+.formeditprofil input{
+color:#555;
+font-family:verdana;
+font-size:11px;
+padding-left:5px;
+ 
+}
+
+
+
+
+/* CSS TAMPIL PRODUK TERBARU */
+
+.tampilproduk img{
+width:80px;
+margin-bottom:5px;
+height:90px;
+box-shadow:1px 1px 2px #ccc;
+-webkit-box-shadow:1px 1px 2px #ccc;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+.tampilproduk table{
+margin-top:30px;
+margin-bottom:5px;
+background:#fff;
+border-radius:10px;
+float:center;
+box-shadow:0px 0px 3px #bbb;
+-moz-border-radius:10px;
+-moz-box-shadow:0px 0px 3px #bbb;
+padding-bottom:30px;
+}
+.tampilproduk td{
+font-family:verdana;
+font-size:11px;
+color:#000;
+
+}
+.tampilproduk th{
+color:#B81D18;
+font-family:verdana;
+font-size:14px;
+padding-top:20px;
+padding-bottom:20px;
+}
+.tampilproduk a{
+text-decoration:none;
+color:#B81D18;
+}
+.tampilproduk a:hover{
+text-decoration:underline;
+color:red;
+}
+
+/*CSS INDEX USER*/
+
+.userdetail table{
+border:1px solid #bbb;
+-moz-border-radius:10px;
+border-radius:10px;
+background:#fff;
+padding:5px;
+margin:auto auto 30px;
+}
+.userdetail .pass{
+background:#fff;
+color:#000;
+font-family:arial;
+font-size:11px;
+border:0px;
+}
+.userdetail .par{
+text-align:center;
+font-family:verdana;
+font-weight:bold;
+color:#555;
+margin-top:30px;
+margin-bottom:1px;
+font-size:13px;
+letter-spacing:1px;
+}
+.userdetail td{
+border-bottom:1px dotted #aaa;
+font-family:arial;
+font-size:11px;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+color:#000;
+}
+.userdetail .welcomeuser{
+text-align:center;
+font-weight:bold;
+font-family:verdana;
+}
+.userdetail .tmbledit{
+text-decoration:none;
+padding:5px 10px 5px;
+color:#fff;
+letter-spacing:2px;
+font-size:10px;
+font-weight:bold;
+font-family:verdana;
+background:#B81D18;
+box-shadow:1px 1px 1px #aaa;
+border-radius:5px;
+-moz-border-radius:5px;
+}
+.indexuser table{
+background:#fff;
+padding:20px;
+margin:20px;
+border-radius:5px;
+-moz-border-radius:5px;
+box-shadow:0px 0px 3px #bbb;
+-moz-box-shadow:0px 0px 3px #bbb;
+}
+.indexuser img{
+border:0px;
+-moz-box-shadow:0px 0px 0px ;
+box-shadow:0px 0px 0px ;
+}
+ul.keranjang{
+list-style-image:url(img/keranjang.gif);
+}
+.indexuser a{
+font-family:arial;
+text-decoration:none;
+font-size:12px;
+ color:#000;
+}
+.indexuser a:hover{
+font-family:arial;
+font-size:12px;
+color:#FF9200;
+}
+.userdetail a{
+text-decoration:none;
+}
+.isi .nav{
+ 
+}
+.isi .nav a{
+font-family:verdana;
+font-size:11px;
+font-weight:bold;
+color:red;
+}
+.isi .nav a:hover{
+color:#ef0000;
+}
+.isi .nav td{
+text-align:center;
+ 
+}
+/* CSS PADA user detail_produk.php */
+
+.detailprod{
+background:#fff;
+-moz-border-radius:10px;
+border-radius:10px;
+-moz-box-shadow:0px 0px 3px #bbb;
+box-shadow:0px 0px 3px #bbb;
+padding:10px 30px 40px;
+overflow:hidden;
+width:600px;
+margin:20px auto 20px;
+}
+
+.detailprod .nmprod{
+border:0px;
+background:#fff;
+border-bottom:1px solid #B81D18;
+font-size:16px;
+font-family:verdana;
+cursor:pointer;
+text-decoration:none;
+margin-bottom:-10px;
+margin-top:40px;
+letter-spacing:2px;
+margin-left:20px;
+}
+.detailprod img{
+width:170px;
+height:200px;
+float:right;
+border:0px;
+box-shadow:0px 0px 0px;
+-moz-box-shadow:0px 0px 0px;
+}
+ 
+.detailprod .harga{
+margin-left:20px; 
+font-weight:bold;
+font-size:15px;
+color:#000;
+font-family:arial;
+text-align:left;
+}
+.detailprod .harga input{
+border:0px;
+background:#fff;
+letter-spacing:2px;
+color:#000;
+font-size:15px;
+font-family:arial;
+font-weight:bold;
+cursor:pointer;
+}
+.detailprod .ketprod{
+margin-left:20px;
+font-family:arial;
+font-size:12px;
+line-height:22px;
+color:#000;
+}
+.tombolrevcart{
+
+background:#4EB1BA;
+border:0px;
+font-size:11px;
+font-family:arial;
+color:#fff;
+padding:3px 20px 3px;
+font-weight:bold;
+cursor:pointer;
+border-radius:5px;
+box-shadow:1px 1px 0px #999;
+text-decoration:none;
+margin-left:20px;
+cursor:pointer;
+
+margin-top:10px;
+margin-bottom:10px;
+
+}
+.tombolrevcart:hover{
+background:#FFB900;
+color:#FFF;
+box-shadow:1px 1px 0px #aaa;
+ 
+}
+.detailprod .warntocartrev{
+font-size:9px;
+font-family:arial;
+color:#ff7200;
+margin-left:0px;
+margin-bottom:0px;
+margin-top:0px;
+}
+.detailprod .warntocartrev img{
+width:9px;
+height:9px;
+float:left; 
+margin-right:4px;
+margin-bottom:0px;
+margin-top:4px;
+}
+.detailprod .tempatwarn{
+height:3px;
+
+overflow:hidden;
+width:600px;
+vertical-align:top;
+}
+
+
+/* CSS UNTUK CART  pada halaman cart.php*/
+
+.cart{
+width:80%;
+background:#fff;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+box-shadow:0px 0px 3px #ccc;;
+-moz-box-shadow:0px 0px 3px #ccc;
+margin:auto auto 30px;
+padding-bottom:40px;
+padding-top:40px;
+}
+.cart .totalbelanja{
+color:#000;
+text-align:center;
+font-family:verdana;
+font-size:13px;
+cursor:pointer;
+font-weight:bold;
+}
+.cart .tmblprocart{
+padding:4px 20px; 4px;
+border:1px;
+color:white;
+font-family:verdana;
+font-size:11px;
+background:#4EB1BA;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+-moz-box-shadow:1px 1px 1px #000;
+box-shadow:1px 1px 1px #000;
+-webkit-box-shadow:1px 1px 1px #000;
+}
+.cart .tmblprocart:hover{
+background:#FFB900;
+text-decoration:none;
+}
+.cart .hargax{
+font-family:verdana;
+font-size:12px;
+font-weight:bold;
+text-decoration:none;
+color:brown;
+text-align:center;
+margin-top:10px;
+margin-bottom:10px;
+}
+.cart .stokprod{
+font-family:verdana;
+color:red;
+font-size:12px;
+font-weight:bold;
+}
+.cart img{
+width:150px;
+height:170px;
+margin-left:50px;
+border:0px;
+-moz-box-shadow:0px 0px 0px;
+box-shadow:0px 0px 0px;
+-webkit-box-shadow:0px 0px 0px;
+}
+.cart .namaprod{
+letter-spacing:1px;
+color:#B81D18;
+font-weight:bold;
+text-decoration:none;
+font-family:verdana;
+border-bottom:1px dotted #B81D18;
+font-size:15px;
+}
+.cart .namaprod:hover{
+ 
+border-bottom:1px solid #B81D18;
+}
+
+
+.cart .hargaprod{
+color:#B81D18;
+font-family:verdana;
+font-size:12px;
+font-weight:bold
+}
+.cart .jumlah{
+font-weight:bold;
+font-family:verdana;
+font-size:12px;
+}
+.cart .jumlah input {
+padding-left:4px;
+}
+.cart .jumlah a{
+text-decoration:none;
+padding:5px 10px 5px;
+background:#4EB1BA;
+font-size:10px;
+border-radius:5px;
+-mozborder-radius:5px;
+color:#fff;
+letter-spacing:0.5px;
+font-weight:bold;
+-moz-box-shadow:1px 1px 1px #000;
+box-shadow:1px 1px 1px #000;
+-webkit-box-shadow:1px 1px 1px #000;
+}
+.cart .jumlah a:hover{
+background:#FFB900;
+}
+.cart .tomupd{
+border:0px;
+text-decoration:none;
+padding:3px 0px 3px;
+cursor:pointer;
+background:#4EB1BA;
+font-size:10px;
+width:70px;
+border-radius:5px;
+-mozborder-radius:5px;
+color:#fff;
+letter-spacing:0.5px;
+font-weight:bold;
+-moz-box-shadow:1px 1px 1px #000;
+box-shadow:1px 1px 1px #000;
+-webkit-box-shadow:1px 1px 1px #000;
+}
+.cart .tomupd:hover{
+background:#FFB900;
+}
+.cart select{
+margin-right:5px;
+}
+.cart .subttl input{
+background:#fff;
+color:#000;
+text-align:right;
+border:0px;
+font-size:11px;
+font-family:verdana;
+font-weight:bold;
+}
+.cart .subttl{
+font-size:11px;
+font-family:verdana;
+font-weight:bold;
+border-bottom:1px solid #ccc;
+}
+.cart .blmadacart{
+text-align:center;
+font-family:verdana;
+font-weight:bold;
+font-size:11px;
+color:red;
+}
+.cart .blmadacart a{
+color:#B81D18;
+ 
+}
+
+
+.isi .warngb{
+color:red;
+text-align:center;
+font-size:11px;
+font-weight:bold;
+font-family:verdana;
+}
+
+
+/*================pengiriman.php================*/
+.pengiriman p{
+text-align:center;
+color:#333;
+font-size:11px;
+font-family:verdana;
+font-weight:bold;
+}
+.isi .deliv{
+border:0px;
+margin-top:100px;
+position:absolute;
+margin-left:45px;
+box-shadow:0px 0px 0px; 
+}
+.isi .delivv{
+border:0px;
+margin-top:240px;
+float:right;
+position:absolute;
+margin-left:450px;
+box-shadow:0px 0px 0px; 
+}
+.pengiriman table{
+border:1px solid #bbb;
+-moz-border-radius:10px;
+border-radius:10px;
+padding:5px;
+background:#fff;
+margin:auto auto 30px;
+}
+.pengiriman td{
+border-bottom:1px dotted #aaa;
+font-family:arial;
+font-size:11px;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+color:#000;
+}
+.pengiriman .tmbledit{
+text-decoration:none;
+padding:5px 10px 5px;
+color:#fff;
+letter-spacing:2px;
+font-size:10px;
+font-weight:bold;
+font-family:verdana;
+background:#4EB1BA;
+box-shadow:1px 1px 1px #aaa;
+border-radius:5px;
+-moz-border-radius:5px;
+}
+
+.pengiriman .kepembayaran {
+padding:10px 20px 10px;
+border-radius:5px;
+background:#4EB1BA; 
+box-shadow:1px 1px 1px #999; 
+text-decoration:none;
+color:#fff;
+font-weight:bold;
+font-family:verdana;
+font-size:11px;
+}
+.pengiriman .kepembayaran:hover{
+box-shadow:1px 1px 1px #777; 
+
+}
+ 
+/*============cara_bayar.php================*/
+.bayar{
+padding-top:20px;
+}
+.bayar .frmradio table{
+background:none;
+border:none;
+}
+.bayar .frmradio td{
+border:none;
+text-align:left;
+}
+.bayar .editpesanan{
+text-decoration:none;
+text-align:left;
+color:#0088FF;
+font-size:11px;
+font-family:verdana;
+font-weight:bold;
+}
+.bayar .editpesanan:hover{
+border-bottom:1px dotted #0088ff;
+}
+.bayar .desc{
+margin-left:70px;
+margin-top:-14px;
+font-family:verdana;
+line-height:19px;
+font-weight:bold;
+font-size:10px;
+color:#000;
+margin-bottom:10px;
+}
+.bayar label{
+font-weight:bold;
+letter-spacing:1px;
+color:#000;
+font-family:verdana;
+font-size:11px;
+margin-left:30px;
+margin-bottom:20px;
+cursor:pointer;
+}
+.bayar label:hover{
+color:#444;
+}
+.bayar table{
+background:#fff;
+border:1px solid #888;
+border-bottom:0px;
+}
+.bayar .nmprod{
+color:#FF9200;
+font-family:verdana;
+font-weight:bold;
+font-size:12px;
+}
+.bayar td{
+border-bottom:1px solid #888;
+padding-left:5px;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+text-align:center; 
+color:#444;
+font-family:verdana;
+font-size:12px;
+padding:5px 0px  5px;
+}
+.bayar th{
+text-align:center;
+font-weight:bold;
+border-bottom:1px solid #888;
+font-family:arial;
+font-size:12px;
+padding:5px 0px  5px;
+color:#333;
+}
+.bayar .a{
+background:#FFE4C1;
+}
+.bayar .ttl{
+text-align:center;
+font-weight:bold;
+color:#FF8600;
+}
+
+.bayar .kirimke td{
+text-align:left;
+padding-left:10px;
+}
+.bayar .kirimke .tmbl{
+text-align:right;
+padding-right:10px;
+
+} 
+
+.bayar .kirimke .tmbl a{
+text-decoration:none;
+}
+.bayar .nb{
+color:red;
+font-weight:bold;
+font-size:11px;
+font-family:verdana;
+padding:10px;
+}
+.bayar .to table{
+background:none;
+border:0px;
+}
+.bayar .to td{
+border:0px;
+font-weight:bold;
+color:#B81D18;
+font-family:verdana;
+letter-spacing:2px;
+font-size:16px;
+text-align:left;
+width:200px;
+}
+/*============== bukutamu.php ===========*/
+
+ 
+.gb .ketik{
+height:10px;
+padding-left:20px;
+color:#000;
+font-family:arial;
+font-size:11px;
+letter-spacing:1px;
+
+}
+.gb .tempattombol{
+height:60px;
+padding-right:30px;
+
+}
+.gb .maintbl{
+background:#fff;
+width:500px; 
+height:600px;
+background:#fff;
+margin-top:20px; 
+margin-bottom:50px; 
+border-radius:10px;
+box-shadow:0px 0px 3px #999;
+}
+ 
+.gb .ifr{
+margin-top:10px;
+width:95%;
+height:95%;
+box-shadow:0px 0px 3px #999;
+background:#fff;
+border-radius:10px;
+border:0px;
+}
+.psnbtamu{
+background:#EFEFEF;
+color:green;
+overflow:hidden;
+width:490px;
+margin:3px 5px 3px;
+border-radius:10px;
+height:15px;
+padding-left:10px;
+padding-right:10px;
+padding-top:4px;
+padding-bottom:4px;
+box-shadow:1px 1px 3px #333;
+}
+ .namabtamu{
+font-family:arial;
+font-size:11px;
+text-decoration:none;
+color:#000;
+font-weight:bold;
+letter-spacing:1px;
+} 
+.pesanbtamu{
+font-size:11px;
+font-family:arial;
+color:#000;
+letter-spacing:1px;
+}
+.tglbtamu{
+ font-size:9px;
+float:right;
+font-family:times new roman;
+color:#777;
+}
+.fbtamu{
+border:1px solid #4EB1BA;
+border-radius:3px;
+padding-left:4px;
+color:#000;
+background:#FCfCfC;
+letter-spacing:1px;
+font-size:12px;
+}
+
+.admgb table{
+width:700px; 
+}
+.admtd{
+background:#fff;
+padding:10px 10px 10px;
+border-radius:10px;
+box-shadow:1px 1px 2px #888;
+color:#555;
+font-family:arial;
+font-size:11px;
+}
+.admnamabtamu{
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+color:#555;
+}
+
+/*============== widget random produk ==============*/
+.tblkeranjang{
+background:#fff;
+padding:5px;
+width:190px;
+height:210px;
+-moz-border-radius-bottomright:17px;
+-moz-border-radius-topright:17px;
+-webkit-border-top-right-radius:17px;
+-webkit-border-bottom-right-radius:17px;
+box-shadow:1px 1px 3px #444;
+}
+.tblkeranjang .judul{
+font-family:verdana;
+font-weight:bold;
+font-size:11px;
+margin-top:-2px;
+color:#B81D18;
+}
+.tblkeranjang .imgprod{
+width:110px;
+height:150px;
+margin-top:-10px;
+}
+
+
+/* ==================== user kontak.php =======================*/
+.isi .kontak .nm{
+background:#fff;
+color:#FD3120;
+font-size:11px;
+font-family:verdana;
+font-weight:bold;
+padding-left:5px;
+}
+
+/*===================pesanan sukses rek.php ================*/
+.isi .pesansukses{
+color:#000;
+font-weight:bold;
+font-size:13px;
+text-align:center;
+font-family:verdana;
+}
+.isi .pesansukses a{
+color:#B81D18;
+text-decoration:none;
+}
+
+*===========================hsitory.php========================*/
+.history table{
+ background:#fff;
+ border:1px solid #000;
+ margin-bottom:40px;
+}
+.history th{
+background:#B81D18;
+font-family:verdana;
+color:#fff;
+font-size:11px;
+letter-spacing:1px;
+padding-top:5px;
+padding-bottom:5px;
+}
+ 
+.history td{
+text-align:center;
+ 
+padding:2px 20px 2px;
+color:#888;
+font-family:verdana;
+font-size:11px;
+background:#fff;
+padding-top:5px;
+padding-bottom:5px;
+}
+.isi .history .link{
+text-decoration:none;
+color:#FF9200;
+}
+.isi .history .link:hover{
+text-decoration:underline;
+color:#FF9200;
+}
+/*===========================pesanankonsumen.php================================*/
+.pesanankonsumen table{
+background:#fff;
+border :1px solid #999;
+margin-bottom:30px;
+}
+.pesanankonsumen th{
+background:#FFF0B8;
+font-family:verdana;
+font-size:11px;
+color:#FF9200;
+letter-spacing:1px;
+padding:10px;
+border :1px solid #999;
+}
+.pesanankonsumen td{
+text-align:center;
+border :1px solid #999;
+font-family:verdana;
+font-size:12px;
+padding:3px;
+}
+.pesanankonsumen a{
+text-decoration:none;
+color:#B81D18;
+ }
+ .pesanankonsumen a:hover{
+ text-decoration:none;
+ color:red;
+ }
+ .pesanankonsumen .nb{
+ color:#000;
+ font-family:verdana;
+ font-size:11px;
+ }
+ /*===========================pesanandetail.php================================*/
+ .detailfaktur table{
+ background:#fff;
+ border :1px solid #999;
+ margin-bottom:30px;
+ }
+ .detailfaktur th{
+ background:#FFF0B8;
+ font-family:verdana;
+ font-size:11px;
+ color:#FF9200;
+ letter-spacing:1px;
+ padding:10px;
+ border :1px solid #999;
+ }
+ .detailfaktur td{
+ text-align:center;
+ border :1px solid #999;
+ font-family:verdana;
+ font-size:12px;
+ padding:3px;
+ }
+ .detailfaktur a{
+ text-decoration:none;
+ color:#B81D18;
+  }
+  .detailfaktur a:hover{
+  text-decoration:none;
+  color:red;
+ }
+ 
+ /*========================================= FORM CARI ================================*/
+ .cari{
+ height:30px;
+ text-align:right;
+ }
+  .carix{
+  height:30px;
+  text-align:right;
+ margin-top:20px;
+ margin-bottom:-20px;
+ }
+ .carix .tombol{
+ background:4EB1BA;
+ border:0px;
+ font-size:11px;
+ font-family:arial;
+ color:#fff;
+ padding:3px 20px 3px;
+ font-weight:bold;
+ cursor:pointer;
+ border-radius:5px;
+ box-shadow:1px 1px 0px #999;
+}
+  .fcari{
+ background:#fdfdfd;
+ color:#B81D18;
+ padding:4px;
+ font-size:11px;
+ font-family:verdana;
+ border:1px solid #B81D18;
+ }
+ 
+ 
+ /*===============================kota.php==========================*/
+ .kota td{
+ text-align:center;
+ background:#fff;
+ padding-bottom:5px;
+ padding-top:5px; 
+ font-family:arial;
+  
+ font-size:12px;
+ }
+ .kota table{
+  margin-bottom:30px;
+    margin-top:10px;
+ }
+ .kota th{
+  background:#B81D18;
+  font-family:verdana;
+  letter-spacing:1px;
+    padding-bottom:5px;
+  padding-top:5px;
+  font-size:13px;
+ }
+ 
